@@ -22,7 +22,7 @@ def printer(arr)
     puts message 
   end
   
-  assign_rooms.each do |assignment|
+  assign_rooms(arr).each do |assignment|
     puts assignment
   end
 end
