@@ -11,7 +11,9 @@ def batch_badge_creator(arr)
 end
 
 def assign_rooms(arr)
-  arr.each_with_index do |
+  rarr = []
+  arr.each_with_index do |val, index|
+    rarr << 
 
 def printer(arr)
   batch_badge_creator(arr).each do |message|
