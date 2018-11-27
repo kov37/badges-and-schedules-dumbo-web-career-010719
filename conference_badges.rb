@@ -10,4 +10,12 @@ def batch_badge_creator(arr)
   arr
 end
 
-def printer
+def assign_rooms(arr)
+  arr.
+
+def printer(arr)
+  batch_badge_creator(arr).each do |message|
+    puts message 
+  end
+  
+  
